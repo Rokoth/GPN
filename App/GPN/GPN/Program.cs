@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore;
 using Microsoft.Extensions.Configuration;
 using Serilog;
+using GPN.Common;
 
-public partial class Program
+public class Program
 {
     private const string _logDirectory = "Logs";
     private const string _logFileName = "log-startup.txt";

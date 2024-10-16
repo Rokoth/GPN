@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN", "GPN\GPN.csproj", "{6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN.DB", "GPN.DB\GPN.DB.csproj", "{4D9E488B-BCEC-4DA7-93C1-E6BAFBCDDCB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN.Common", "GPN.Common\GPN.Common.csproj", "{0667F582-9A4E-4096-BD07-F93EC808E3E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN.DeployerService", "GPN.DeployerService\GPN.DeployerService.csproj", "{F6F237FC-3FB4-4417-9217-A7C5F9A7AA86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4D9E488B-BCEC-4DA7-93C1-E6BAFBCDDCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9E488B-BCEC-4DA7-93C1-E6BAFBCDDCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9E488B-BCEC-4DA7-93C1-E6BAFBCDDCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0667F582-9A4E-4096-BD07-F93EC808E3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0667F582-9A4E-4096-BD07-F93EC808E3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0667F582-9A4E-4096-BD07-F93EC808E3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0667F582-9A4E-4096-BD07-F93EC808E3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F237FC-3FB4-4417-9217-A7C5F9A7AA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F237FC-3FB4-4417-9217-A7C5F9A7AA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F237FC-3FB4-4417-9217-A7C5F9A7AA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F237FC-3FB4-4417-9217-A7C5F9A7AA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

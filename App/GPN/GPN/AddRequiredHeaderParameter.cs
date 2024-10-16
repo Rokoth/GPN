@@ -1,13 +1,14 @@
-﻿using Microsoft.Extensions.DependencyInjection.Extensions;
+﻿using Microsoft.OpenApi.Any;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
-public partial class Program
+namespace GPN
 {
     public class AddRequiredHeaderParameter : IOperationFilter
     {
         public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
-            if (operation.Parameters == null)
-                operation.Parameters = new List<OpenApiParameter>();
+            operation.Parameters ??= [];
 
             operation.Parameters.Add(new OpenApiParameter
             {
@@ -23,5 +24,4 @@ public partial class Program
             });
         }
     }
-
 }
